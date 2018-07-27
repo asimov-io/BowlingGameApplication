@@ -16,7 +16,7 @@ Approach:
 I wasn't sure exactly how scoring for bowing worked at first so I had spend some time researching that.
 
 Once feeling comfortable I was excited to find that there is a Bowling Kata for TDD sharpening.
-Rather than jump right in I decided to  work through the excercise a few times till I felt comfortbale
+Rather than jump right in I decided to work through the excercise a few times till I felt comfortbale
 with the features. The resoures on youtube were very helpfull with navigating the IDE and utalizing 
 the built in testing tools. 
 
@@ -32,8 +32,8 @@ no references.
 "Hindsight is 20/20"
 
  I feel that I made some odd choices with the design of this.
- the worst one in my opinion was that when I was building my validation loop to check if the user input
- made sense, I ended up writing it with a while loop that would not breakout untill I finished getting 
+ The worst one in my opinion was that when I was building my validation loop to check if the user input
+ made sense. I ended up writing it with a while loop that would not breakout untill I finished getting 
  all the frame scores. This caused forced redundancy, as I needed to write a sub validation for each 
  case, rather than just calling a function.
  
